@@ -1,8 +1,0 @@
-numpy
-pandas
-streamlit
-matplotlib
-scikit-learn
-datetime
-tensorflow
-streamlit-option-menu
