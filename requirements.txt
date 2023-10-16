@@ -1,0 +1,4 @@
+matplotlib
+seaborn
+datetime
+streamlit-option-menu
