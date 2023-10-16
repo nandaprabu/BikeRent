@@ -12,8 +12,8 @@ st.set_page_config(
     page_icon=":bicyclist:"
 )
 
-df_day = pd.read_csv(r"D:\UNIVERSITAS TRUNOJOYO MADURA\SUNNAH\PELATIHAN IT\DICODING\Analisis Data dengan Python\Submission_Angga\Dataset\day.csv")
-df_hour = pd.read_csv(r"D:\UNIVERSITAS TRUNOJOYO MADURA\SUNNAH\PELATIHAN IT\DICODING\Analisis Data dengan Python\Submission_Angga\Dataset\hour.csv")
+df_day = pd.read_csv(r"day.csv")
+df_hour = pd.read_csv(r"hour.csv")
 
 df_day['dteday'] = pd.to_datetime(df_day['dteday'])
 df_hour['dteday'] = pd.to_datetime(df_hour['dteday'])
